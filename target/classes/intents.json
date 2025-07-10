@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you?", "Hi there!", "Hey! Ready to chat?"]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Take care.", "Catch you later!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh"],
+      "responses": ["Why do Java developers wear glasses? Because they don't C#!", "I told a joke about UDP... but I’m not sure if anyone got it."]
+    }
+  ]
+}
