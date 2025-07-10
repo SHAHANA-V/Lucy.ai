@@ -19,11 +19,11 @@ public class Lucy {
                 break;
             }
 
-            String response = classifier.classify(userInput);
+            String response = classifier.classifyIntent(userInput);
             System.out.println("Lucy: " + response);
         }
 
-        scanner.close();
+        scanner.close();    
     }
 }
 

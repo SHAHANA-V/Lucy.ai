@@ -1,2 +1,4 @@
 com\lucy\IntentClassifier.class
 com\lucy\Lucy.class
+com\lucy\SynonymHandler.class
+com\lucy\utils\SynonymResolver.class
